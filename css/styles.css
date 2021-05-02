@@ -72,6 +72,7 @@ a:hover {
   text-decoration: underline; /* Use span for inline paragraph edits with css */
 }
 
+/*
 .top-cloud {
   position: absolute;
   top: 110px;
@@ -83,7 +84,7 @@ a:hover {
   left: 360px;
   bottom: 440px;
 }
-
+*/
 .skills {
   padding-top: 10%;
 }
