@@ -74,14 +74,14 @@ a:hover {
 
 .top-cloud {
   position: absolute;
-  right: 200px;
   top: 110px;
+  left: 790px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 200px;
-  bottom: 300px;
+  left: 360px;
+  bottom: 440px;
 }
 
 .skills {
