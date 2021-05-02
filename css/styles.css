@@ -1,0 +1,201 @@
+body {
+  margin: 0; /* All four sides is 0 */
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  color: #40514e;
+}
+
+h1 {
+  font-size: 6.25rem; /* 562.5% = 90px */
+  margin: 50px auto 0 auto;
+  color: #40514e;
+  font-family: 'Meie Script', cursive;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.5rem;
+  color: #706c61;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: lightgrey;
+  border-width: 7px;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #10788e
+}
+
+.top-container {
+  background: rgb(238,238,238);
+  background: linear-gradient(180deg, rgba(238,238,238,1) 4%, rgba(0,173,181,1) 36%, rgba(161,222,147,1) 100%);
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 5%;
+  background-color: #eeeeee;
+}
+
+.bottom-container {
+  background-color: #a1de93;
+  padding: 50px 0 20px;
+}
+
+.profile {
+  padding-bottom: 10%;
+}
+
+.pro {
+  text-decoration: underline; /* Use span for inline paragraph edits with css */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 110px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.skills {
+  padding-top: 10%;
+}
+.skill-row {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 10%;
+}
+
+/* Images */
+.pic-of-me {
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+.java-cup {
+  padding-right: 10%;
+  height: 8%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 8%;
+  float: right;
+}
+.html5-logo {
+  float: right;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 8%;
+  width: 8%;
+}
+.css-logo {
+  float: right;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 8%;
+  width: 8%;
+}
+.javascript-logo {
+  padding-left: 5%;
+  float: right;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 8%;
+  width: 8%;
+}
+.team {
+  padding-left: 10%;
+  height: 20%;
+  width: 20%;
+}
+.laptop {
+  padding-left: 10%;
+  height: 20%;
+  width: 20%;
+}
+.critical-thinker {
+  padding-left: 10%;
+  height: 20%;
+  width: 20%;
+}
+
+.contact-me {
+  padding-top: 5%;
+  margin: 40px auto 60px;
+}
+
+.end-message {
+  padding-bottom: 5%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #67abe0);
+  background-image: -moz-linear-gradient(top, #11cdd4, #67abe0);
+  background-image: -ms-linear-gradient(top, #11cdd4, #67abe0);
+  background-image: -o-linear-gradient(top, #11cdd4, #67abe0);
+  background-image: linear-gradient(to bottom, #11cdd4, #67abe0);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #f0f0f0;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1e8cc7;
+  background-image: -webkit-linear-gradient(top, #1e8cc7, #3498db);
+  background-image: -moz-linear-gradient(top, #1e8cc7, #3498db);
+  background-image: -ms-linear-gradient(top, #1e8cc7, #3498db);
+  background-image: -o-linear-gradient(top, #1e8cc7, #3498db);
+  background-image: linear-gradient(to bottom, #1e8cc7, #3498db);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+/* Images */
+/* Image sources */
+.src-container {
+  background-color: #a1de93;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  margin-top: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px;
+  position: relative;
+}
