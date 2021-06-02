@@ -1,7 +1,7 @@
 body {
   margin: 0; /* All four sides is 0 */
   text-align: center;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   color: #707a78;
 }
@@ -10,15 +10,16 @@ h1 {
   font-size: 6.25rem; /* 562.5% = 90px */
   margin: 50px auto 0 auto;
   color: #40514e;
-  font-family: 'Meie Script', cursive;
+  font-family: "Raleway", sans-serif;
 }
 
 h2 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
   font-size: 2.5rem;
+  font-weight: bolder;
   color: #706c61;
-  font-weight: normal;
-  padding-bottom: 10px;
+  padding-bottom: 4rem;
 }
 
 h3 {
@@ -49,10 +50,19 @@ a:hover {
   color: #10788e
 }
 
+.bg-img-one {
+  background-image: url("../images/glowman.gif");
+  /* Image by giphy.com, author: dualvoidanima, @dualvoidanima */
+}
+
+.bg-img-two {
+  background-image: url("../images/moon-waves.gif");
+}
+
 .top-container {
-  background: rgb(34,78,195);
-  background: linear-gradient(0deg, rgba(34,78,195,0.8799894957983193) 4%, rgba(253,187,45,1) 100%); 
-  padding-top: 100px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, #DFD7CD 0%, #718067 100%);
+  padding-top: 12rem;
 }
 
 .middle-container {
@@ -62,9 +72,9 @@ a:hover {
 }
 
 .bottom-container {
-  background: rgb(34,78,195);
-  background: linear-gradient(0deg, rgba(34,78,195,0.8799894957983193) 4%, rgba(253,187,45,1) 100%);
-  padding: 50px 0 20px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, #DFD7CD 0%, #718067 100%);
+  padding: 0;
 }
 
 .profile {
@@ -75,28 +85,16 @@ a:hover {
   text-decoration: underline; /* Use span for inline paragraph edits with css */
 }
 
-/*
-.top-cloud {
-  position: absolute;
-  top: 110px;
-  left: 790px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 360px;
-  bottom: 440px;
-}
-*/
-.skills {
-  padding-top: 10%;
+.skills-languages{
+  /* float: right; */
+  /* padding-top: 10%; */
 }
 .skill-row {
+  display: flow-root;
   width: 75%;
   margin: auto;
-  text-align: left;
+  text-align: justify;
   line-height: 2;
-  padding-bottom: 10%;
 }
 
 /* Images */
@@ -106,34 +104,23 @@ a:hover {
   margin-bottom: -10px;
 }
 .java-cup {
-  padding-right: 10%;
-  height: 8%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  width: 8%;
-  float: right;
+  height: 125px;
+  width: auto;
 }
 .html5-logo {
-  float: right;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  height: 8%;
-  width: 8%;
+  padding-left: 10%;
+  height: 125px;
+  width: auto;
 }
 .css-logo {
-  float: right;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  height: 8%;
-  width: 8%;
+  padding-left: 10%;
+  height: 125px;
+  width: auto;
 }
 .javascript-logo {
-  padding-left: 5%;
-  float: right;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  height: 8%;
-  width: 8%;
+  padding-left: 10%;
+  height: 125px;
+  width: auto;
 }
 .team {
   padding-left: 10%;
@@ -152,8 +139,9 @@ a:hover {
 }
 
 .contact-me {
-  padding-top: 5%;
-  margin: 40px auto 60px;
+  display: flow-root;
+  vertical-align: baseline;
+  padding-bottom: 2rem;
 }
 
 .end-message {
@@ -162,11 +150,11 @@ a:hover {
 
 .btn {
   background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #08a6ac, #3e8dc9);
-  background-image: -moz-linear-gradient(top, #08a6ac, #3e8dc9);
-  background-image: -ms-linear-gradient(top, #08a6ac, #3e8dc9);
-  background-image: -o-linear-gradient(top, #08a6ac, #3e8dc9);
-  background-image: linear-gradient(to bottom, #08a6ac, #3e8dc9);
+  background-image: -webkit-linear-gradient(top, #1d3233, #3e8dc9);
+  background-image: -moz-linear-gradient(top, #1d3233, #3e8dc9);
+  background-image: -ms-linear-gradient(top, #1d3233, #3e8dc9);
+  background-image: -o-linear-gradient(top, #1d3233, #3e8dc9);
+  background-image: linear-gradient(to bottom, #1d3233, #3e8dc9);
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
   border-radius: 11px;
@@ -175,15 +163,16 @@ a:hover {
   font-size: 18px;
   padding: 8px 12px 8px 12px;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 .btn:hover {
   background: #1e8cc7;
-  background-image: -webkit-linear-gradient(top, #1e8cc7, #3498db);
-  background-image: -moz-linear-gradient(top, #1e8cc7, #3498db);
-  background-image: -ms-linear-gradient(top, #1e8cc7, #3498db);
-  background-image: -o-linear-gradient(top, #1e8cc7, #3498db);
-  background-image: linear-gradient(to bottom, #1e8cc7, #3498db);
+  background-image: -webkit-linear-gradient(top, #1d3233, #3498db);
+  background-image: -moz-linear-gradient(top, #1d3233, #3498db);
+  background-image: -ms-linear-gradient(top, #1d3233, #3498db);
+  background-image: -o-linear-gradient(top, #1d3233, #3498db);
+  background-image: linear-gradient(to bottom, #1d3233, #3498db);
   text-decoration: none;
 }
 
@@ -205,16 +194,86 @@ a:hover {
   position: relative;
 }
 
+.the-links {
+  padding-top: 12rem;
+  color: white;
+  font-size: 30px;
+}
+
 /* Unique Identifiers */
+
+#my-name {
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+  color: #EAE5E2;
+}
+
+#programmer {
+  padding-top: 0;
+  padding-bottom: 3.5rem;
+}
+
+#sphere {
+  height: 2rem;
+  width: initial;
+}
+
+#nav-logo {
+  /* height: 25%; */
+  /* width: initial; */
+  /* padding-bottom: 2rem; */
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* -webkit-box-shadow: rgba(0,0,0,0.20) 0 10px 10px; */
+  /* -moz-box-shadow: rgba(0,0,0,0.20) 0 10px 10px; */
+  /* box-shadow: rgba(0,0,0,0.20) 0 10px 10px; */
+}
+
+
+#bg-glow-man {
+  height: 565px;
+  width: initial;
+  padding-bottom: 2rem;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+  -moz-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+  box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+}
+
+#bg-out {
+  height: 325px;
+  width: initial;
+  padding-bottom: 2rem;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+  -moz-box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+  box-shadow: rgba(0,0,0,0.20) 0 10px 10px;
+}
 
 #hello {
   margin-inline: auto;
-  padding-top: 4rem;
+  padding-top: 16rem;
 }
 
 #introduction {
+  font-size: 30px;
   display: flex;
   margin-inline: auto;
-  padding-top: 2rem;
+  padding-top: 1.75rem;
   width: 50%;
+}
+
+#get-in-touch {
+  padding-bottom: 0.5rem;
 }

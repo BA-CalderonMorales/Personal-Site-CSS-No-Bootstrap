@@ -6,24 +6,56 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./images/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Meie+Script&display=swap" rel="stylesheet">
   </head>
 
   <body>
     
+    <section="navigation">
+      <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+          <a href="#home" class="w3-bar-item w3-button w3-wide">
+            <div id="nav-logo">
+              <img src="./images/sphere.gif" id="sphere" alt="fluid-sphere-gif-noauthor-giphy.com">
+            </div>
+          </a>
+          <!-- Right-sided navbar links -->
+          <div class="w3-right w3-hide-small">
+            <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+            <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Hobbies</a>
+            <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+            <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+            <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+          </div>
+          <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+      
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section="top">
       <div class="top-container">
         <!-- <img class="top-cloud" src="Images\cloud.png" alt="cloud-image"> -->
-        <h1>I'm Brandon.</h1>
-        <h2>A <span class="pro">pro</span>grammer.</h2>
+        <h1 id="my-name">I'm Brandon.</h1>
+        <h2 id="programmer">A <span class="pro">pro</span>grammer.</h2>
         <!-- <img class="bottom-cloud" src="Images\cloud.png" alt="cloud-image"> -->
-        <img src="./images/mountain.png" alt="mountain-image">
+        <div class="bg-img-one" id="bg-glow-man">
+        <!-- Serves as a placeholder for a possible background -->
+        </div>
+        <!-- <img src="./images/mountain.jpg" alt="mountain-image"> -->
       </div>
     </section>
     
     <section="middle">
       <div class="middle-container">
+
         <div class="profile">
           <img class="pic-of-me" src="./images/brandon.png" alt="profile-picture">
           <h2 id="hello">Hi.</h2>
@@ -32,52 +64,91 @@
         
         <hr>
         
-        <div class="skills">
-          <h2>My Skills.</h2>
+        <h2>My Skills.</h2>
+        <div class="skills-languages">
           <img class="java-cup" src="./images/java.png" alt="java-coffee">
           <img class="html5-logo" src="./images/html5.png" alt="html5-logo">
           <img class="css-logo" src="./images/css.png" alt="css-logo">
           <img class="javascript-logo" src="./images/javascript.png" alt="javascript-logo">
-          <div class="skill-row">
-            <h3>Core skills</h3>
-            <p>Along with what you see to your right, I've also got experience using GitHub, StackOverflow, StackExchange,
-              and I'm currently learning how to use two other languages (C# and Python). I'm also familiar with the following
-              IDEs: Notepad++, Atom, Eclipse, and VS Code. In the past, I've dabbled a bit with PERL, too. Not really sure if
-              that's a language many people are using to this day though.</p>
-          </div>
+        </div>
 
-          <hr>
+        <div class="skill-row">
+          <h3>Core skills</h3>
+          <p>Along with what you see to your right, I've also got experience using GitHub, StackOverflow, StackExchange,
+            and I'm currently learning how to use two other languages (C# and Python). I'm also familiar with the following
+            IDEs: Notepad++, Atom, Eclipse, and VS Code. In the past, I've dabbled a bit with PERL, too. Not really sure if
+            that's a language many people are using to this day though.</p>
+        </div>
 
-          <div class="skill-row">
-            <h3>A bit more about me.</h3>
+        <hr>
+
+        <div class="skills-languages">
             <img class="team" src="./images/teamwork.png" alt="team-img">
             <img class="laptop" src="./images/laptop.png" alt="laptop-img">
             <img class="critical-thinker" src="./images/critical-thinking.png" alt="criticalthinking-img">
+        </div>
+          
+        <div class="skill-row">
+          <h3>A bit more about me.</h3>
             <p>I enjoy working with a team or solo. I know my way around using basic computer programs like Microsoft Outlook,
               Excel, Word, PowerPoint. I'm former military, so I'm good with sticking to deadlines and learn quickly from any mistakes I make.
-              Finally, I've also got some solid problem-solving skills, and I know how to ask questions when I don't know the answer to something.</p>
-          </div>
+              Finally, I've also got some solid problem-solving skills, and I know how to ask questions when I don't know the answer to something.
+            </p>
         </div>
         
         <hr>
         
         <div class="contact-me">
-          <h2>Get In Touch</h2>
+          <h2 id="get-in-touch">Get In Touch</h2>
           <h3>Message me with any questions you might have.</h3>
           <p class="end-message">Looking forward to speaking with you.</p>
           <a class="btn" href="mailto:tbcm640@gmail.com">CONTACT ME</a>
         </div>
+
       </div>
     </section>
     
     <section="bottom">
       <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/feed/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/BrandonACalder1">Twitter</a>
-        <a class="footer-link" href="imagesources.html">Sources</a>
-        <p class="copyright">© 2021 Brandon Calderon-Morales</p>
+        <div class="bg-img-two" id="bg-out">
+          <!-- Goodbye giphy... -->
+          <div class="the-links">
+            <a class="footer-link" href="https://www.linkedin.com/feed/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/BrandonACalder1">Twitter</a>
+            <a class="footer-link" href="imagesources.html">Sources</a>
+          </div>
+          <p id="copyright">© 2021 Brandon Calderon-Morales</p>
+        </div>
       </div>
     </section>
 
+    <section="javascript">
+      <script>
+        // Modal Image Gallery
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+          var captionText = document.getElementById("caption");
+          captionText.innerHTML = element.alt;
+        }
+        
+        
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+        
+        function w3_open() {
+          if (mySidebar.style.display === 'block') {
+            mySidebar.style.display = 'none';
+          } else {
+            mySidebar.style.display = 'block';
+          }
+        }
+        
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+        </script>
+    </section>
   </body>
 </html>
