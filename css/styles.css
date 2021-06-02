@@ -48,8 +48,8 @@ a:hover {
 }
 
 .top-container {
-  background: rgb(238,238,238);
-  background: linear-gradient(180deg, rgba(238,238,238,1) 4%, rgba(0,173,181,1) 36%, rgba(161,222,147,1) 100%);
+  background: rgb(34,78,195);
+  background: linear-gradient(0deg, rgba(34,78,195,0.8799894957983193) 4%, rgba(253,187,45,1) 100%); 
   padding-top: 100px;
 }
 
@@ -60,7 +60,8 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #a1de93;
+  background: rgb(34,78,195);
+  background: linear-gradient(0deg, rgba(34,78,195,0.8799894957983193) 4%, rgba(253,187,45,1) 100%);
   padding: 50px 0 20px;
 }
 
