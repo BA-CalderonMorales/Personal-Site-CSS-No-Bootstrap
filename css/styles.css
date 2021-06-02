@@ -23,6 +23,8 @@ h2 {
 
 h3 {
   color: #11999E;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 hr {
@@ -55,7 +57,7 @@ a:hover {
 
 .middle-container {
   padding-top: 50px;
-  padding-bottom: 5%;
+  padding-bottom: 0.5%;
   background-color: #eeeeee;
 }
 
@@ -99,6 +101,7 @@ a:hover {
 
 /* Images */
 .pic-of-me {
+  width: 50%;
   padding-top: 20px;
   margin-bottom: -10px;
 }
@@ -154,23 +157,23 @@ a:hover {
 }
 
 .end-message {
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
 }
 
 .btn {
   background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #67abe0);
-  background-image: -moz-linear-gradient(top, #11cdd4, #67abe0);
-  background-image: -ms-linear-gradient(top, #11cdd4, #67abe0);
-  background-image: -o-linear-gradient(top, #11cdd4, #67abe0);
-  background-image: linear-gradient(to bottom, #11cdd4, #67abe0);
+  background-image: -webkit-linear-gradient(top, #08a6ac, #3e8dc9);
+  background-image: -moz-linear-gradient(top, #08a6ac, #3e8dc9);
+  background-image: -ms-linear-gradient(top, #08a6ac, #3e8dc9);
+  background-image: -o-linear-gradient(top, #08a6ac, #3e8dc9);
+  background-image: linear-gradient(to bottom, #08a6ac, #3e8dc9);
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
   border-radius: 11px;
   font-family: 'Noto Sans', sans-serif;
   color: #f0f0f0;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  padding: 8px 12px 8px 12px;
   text-decoration: none;
 }
 
@@ -200,4 +203,18 @@ a:hover {
   margin-right: 25%;
   font-size: 20px;
   position: relative;
+}
+
+/* Unique Identifiers */
+
+#hello {
+  margin-inline: auto;
+  padding-top: 4rem;
+}
+
+#introduction {
+  display: flex;
+  margin-inline: auto;
+  padding-top: 2rem;
+  width: 50%;
 }
