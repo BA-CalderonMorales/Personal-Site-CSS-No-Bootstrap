@@ -85,10 +85,11 @@ a:hover {
   text-decoration: underline; /* Use span for inline paragraph edits with css */
 }
 
-.skills-languages{
+/* .skills-languages{
   /* float: right; */
-  /* padding-top: 10%; */
-}
+  /* padding-top: 10%;
+} */
+
 .skill-row {
   display: flow-root;
   width: 75%;
@@ -184,7 +185,8 @@ a:hover {
 /* Images */
 /* Image sources */
 .src-container {
-  background-color: #a1de93;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, #DFD7CD 0%, #718067 100%);
   padding: 10px 10px 10px 10px;
   position: relative;
   margin-top: 25%;
@@ -192,6 +194,7 @@ a:hover {
   margin-right: 25%;
   font-size: 20px;
   position: relative;
+
 }
 
 .the-links {
