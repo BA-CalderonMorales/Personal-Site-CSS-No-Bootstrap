@@ -2,12 +2,11 @@ body {
   margin: 0; /* All four sides is 0 */
   text-align: center;
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
   color: #707a78;
 }
 
 h1 {
-  font-size: 6.25rem; /* 562.5% = 90px */
+  font-size: 3rem; /* 562.5% = 90px */
   margin: 50px auto 0 auto;
   color: #40514e;
   font-family: "Raleway", sans-serif;
@@ -16,7 +15,7 @@ h1 {
 h2 {
   font-family: "Raleway", sans-serif;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bolder;
   color: #706c61;
   padding-bottom: 4rem;
@@ -36,7 +35,7 @@ hr {
 }
 
 p {
-  line-height: 2;
+  line-height: 2.5;
 }
 
 a {
@@ -78,17 +77,12 @@ a:hover {
 }
 
 .profile {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .pro {
   text-decoration: underline; /* Use span for inline paragraph edits with css */
 }
-
-/* .skills-languages{
-  /* float: right; */
-  /* padding-top: 10%;
-} */
 
 .skill-row {
   display: flow-root;
@@ -96,6 +90,12 @@ a:hover {
   margin: auto;
   text-align: justify;
   line-height: 2;
+}
+
+.intro-paragraph {
+  display: flow-root;
+  padding-bottom: 10%;
+  text-align: -webkit-center;
 }
 
 /* Images */
@@ -203,6 +203,11 @@ a:hover {
   font-size: 30px;
 }
 
+.skills-languages {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 /* Unique Identifiers */
 
 #my-name {
@@ -270,8 +275,8 @@ a:hover {
 }
 
 #introduction {
-  font-size: 30px;
-  margin-inline: auto;
+
+  font-size: 2rem;
   padding-top: 1.75rem;
   width: 50%;
 }
