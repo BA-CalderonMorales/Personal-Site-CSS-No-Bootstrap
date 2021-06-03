@@ -40,7 +40,7 @@
     </section>
 
     <section="top">
-      <div class="top-container">
+      <div class="top-container w3-animate-top">
         <!-- <img class="top-cloud" src="Images\cloud.png" alt="cloud-image"> -->
         <h1 id="my-name" style="font-size: 5rem;">I'm Brandon.</h1>
         <h2 id="programmer" style="font-size: 3rem">A <span class="pro">pro</span>grammer.</h2>
@@ -53,23 +53,24 @@
     </section>
     
     <section="middle">
-      <div class="middle-container">
+      <div class="middle-container w3-animate-top">
 
         <div class="profile">
-          <img class="pic-of-me" src="./images/brandon.png" alt="profile-picture">
+          <img class="pic-of-me w3-opacity-min" src="./images/brandon.png" alt="profile-picture">
           <h2 id="hello" style="font-size: 3rem;">Hi.</h2>
         </div>
 
-        <div class="intro-paragraph">
-          <p id="introduction">
-            I'm an aspiring web-designer/software developer. Family man, gamer, and gym lover.
+        <div class="big-paragraph-div">
+          <p id="big-paragraph">
+            "I'm an aspiring web-designer/software developer. Family man, gamer, and gym lover.
           </p>
         </div>
         
         <hr>
         
         <h2 id="about" style="font-size: 3rem;">My Skills.</h2>
-        <div class="skills-languages">
+
+        <div class="descriptive-images">
           <img class="java-cup" src="./images/java.png" alt="java-coffee">
           <img class="html5-logo" src="./images/html5.png" alt="html5-logo">
           <img class="css-logo" src="./images/css.png" alt="css-logo">
@@ -84,6 +85,15 @@
             IDEs: Notepad++, Atom, Eclipse, and VS Code. In the past, I've dabbled a bit with PERL (an older type of 
             programming language), but I'm not sure if that's a language many people are using to this day.
           </p>
+        </div>
+        
+      <div class="descriptive-images">
+          <img class="team" src="./images/teamwork.png" alt="team-img">
+          <img class="laptop" src="./images/laptop.png" alt="laptop-img">
+          <img class="critical-thinker" src="./images/critical-thinking.png" alt="criticalthinking-img">
+      </div>
+        
+        <div class="skill-row"> 
           <p>
             On a more personal side: I enjoy working with a team or solo. I know my way around using basic computer 
             programs like Microsoft Outlook, Excel, Word, PowerPoint. I'm former military, so I like sticking to deadlines! 
@@ -96,30 +106,56 @@
 
         <hr>
 
-        <div class="skills-languages">
-            <img class="team" src="./images/teamwork.png" alt="team-img">
-            <img class="laptop" src="./images/laptop.png" alt="laptop-img">
-            <img class="critical-thinker" src="./images/critical-thinking.png" alt="criticalthinking-img">
+        <div class="descriptive-images" id="projects">
+          <img class="java-cup" src="./images/GitHub-Mark-64px.png" alt="github-logo">
         </div>
-          
+
         <div class="skill-row">
           <h3 style="font-size: 2.75rem;">Projects</h3>
           <p>
             I like to keep my projects in a place where the whole world can see them (including others like me). 
-            This place is called GitHub. To view all my projects, go ahead and click on any of the links below, 
-            and it should take you to that specific repository where you can find my past projects. I'm actively 
-            adding more to my GitHub, so please be mindful that I'm going to be adding more as time goes by! 
+            This place is called GitHub. To view all my projects, go ahead and click on the link below. The link 
+            should take you to my profile so you can find all of my past and current projects. I'm actively 
+            adding more to my GitHub as time goes by. My goal is to build a big enough repository to have templates
+            for anything that I might need to use as the situation arises. 
           </p>  
 
         </div>
         
         <hr>
+
+        <div class="big-paragraph-div">
+          <p id="big-paragraph">
+            "If you're working on something you really care about, you don't have to be pushed. The vision pulls you."
+            - Steve Jobs
+          </p>
+        </div>
         
-        <div class="contact-me">
-          <h2 id="get-in-touch">Get In Touch</h2>
-          <h3>Message me with any questions you might have.</h3>
+        <hr>
+
+        <h2 style="font-size: 3rem; margin: 1rem;">Contact</h3>
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+          <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+              <i class="fa fa-map-marker" style="width:30px"></i> Omaha, NE<br>
+              <i class="fa fa-envelope" style="width:30px"> </i> Email: tbcm640@mail.com<br>
+            </div>
+            <div class="w3-col m6">
+              <form action="/action_page.php" target="_blank">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Name" required="" name="Name">
+                  </div>
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Email" required="" name="Email">
+                  </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required="" name="Message">
+                <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+              </form>
+            </div>
+          </div>
           <p class="end-message">Looking forward to speaking with you.</p>
-          <a class="btn" href="mailto:tbcm640@gmail.com">CONTACT ME</a>
         </div>
 
       </div>
