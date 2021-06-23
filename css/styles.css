@@ -121,9 +121,10 @@ a:hover {
 }
 
 .big-paragraph-div {
-  display: flow-root;
-  padding-bottom: 10%;
-  text-align: -webkit-center;
+  display: flex;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Images */
