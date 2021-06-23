@@ -16,24 +16,20 @@
 
     <section="navigation">
       <div class="w3-top">
-        <div class="w3-bar w3-white w3-card navbar-font navbar-div" id="myNavbar">
-          <a href="#home" class="w3-bar-item w3-button w3-wide">
-            <div id="nav-logo">
-              <img src="./images/sphere.gif" id="sphere" alt="fluid-sphere-gif-noauthor-giphy.com">
-            </div>
-          </a>
+        <div class="w3-bar w3-white navbar-font navbar-div navbar-font" id="myNavbar">  
           <!-- Right-sided navbar links -->
-          <div class="w3-right w3-hide-small navbar-btns">
-            <a href="./index.html" class="w3-bar-item w3-button">HOME</a>
-            <a href="./index.html#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
-            <a href="./index.html/#projects" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PROJECTS</a>
-            <a href="./index.html/#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-          </div>
-          <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-      
-          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-            <i class="fa fa-bars"></i>
-          </a>
+          <a href="./index.html" class="w3-bar-item w3-button">Home</a>
+          <a href="./index.html#contact" class="w3-bar-item w3-button w3-right w3-hide-small">Contact</a>
+          <a href="./index.html#projects" class="w3-bar-item w3-button w3-right w3-hide-small">Projects</a>
+          <a href="./index.html#about" class="w3-bar-item w3-button w3-right w3-hide-small">About</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+        
+        <div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large 
+        w3-hide-medium navbar-font navbar-div">
+          <a href="./index.html#about" class="w3-bar-item w3-button">About</a>
+          <a href="./index.html#projects" class="w3-bar-item w3-button">Projects</a>
+          <a href="./index.html#contact" class="w3-bar-item w3-button">Contact</a>
         </div>
       </div>
     </section>
@@ -52,6 +48,18 @@
         <p>All <a href="https://www.giphy.com" title="Giphy">Gifs</a> from <a href="https://www.giphy.com/">www.giphy.com</a></p>
         <p>GitHub logo <a href="https://www.github.com/logos" title="github-logo">Logo</a> from <a href="https://www.github.com/logos">www.github.com/logos</a></p>
       </div>
+    </section>
+    <section="javascript">
+      <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
     </section>
   </body>
 </html>
