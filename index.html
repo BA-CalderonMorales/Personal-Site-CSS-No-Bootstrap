@@ -67,7 +67,7 @@
         <hr>
         
         <!-- Content start -->
-        <h2 id="about" style="font-size: 3rem;">My Skills.</h2>
+        <h2 class="w3-hide-small" id="about" style="font-size: 3rem;">My Skills.</h2>
         <div class="w3-col s3 w3-hide-small">
           <img class="java-cup" src="./images/java.png" alt="java-coffee">
         </div>
@@ -89,13 +89,13 @@
             programming language), but I'm not sure if that's a language many people are using to this day.
           </p>
         </div>
-        <div class="w3-col s4 w3-hide-small">
+        <div class="w3-col s4 w3-padding-32 w3-hide-small">
           <img class="team" src="./images/teamwork.png" alt="team-img">
         </div>
-        <div class="w3-col s4 w3-hide-small">
+        <div class="w3-col s4 w3-padding-32 w3-hide-small">
           <img class="laptop" src="./images/laptop.png" alt="laptop-img">
         </div>
-        <div class="w3-col s4 w3-hide-small">
+        <div class="w3-col s4 w3-padding-32 w3-hide-small">
           <img class="critical-thinker" src="./images/critical-thinking.png" alt="criticalthinking-img">
         </div>
         <div class="descriptive-paragraph"> 
@@ -133,45 +133,33 @@
             Projects
           </h2>
         </div>
+      
+        <div class="w3-content w3-display-container">
+          <a href="https://github.com/BA-CalderonMorales/repo_SweepstakesGenerator.git">
+            <img class="mySlides" src="./images/sweepstake.jpg" style="width: 100%;">
+          </a>
           
-        <div class="w3-row-padding">
-
-          <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-              <div class="w3-display-topleft w3-black w3-padding">
-                Most Wanted
-              </div>
-              <img src="/w3images/house5.jpg" alt="Image" style="width:100%">
-            </div>
-          </div>
+          <a href="https://github.com/BA-CalderonMorales/repo_RobotsVsDinosaurs.git">
+            <img class="mySlides" src="./images/robotsvdinos.jpg" style="width: 100%;">
+          </a>
           
-          <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-              <div class="w3-display-topleft w3-black w3-padding">
-                Rock, Paper, Scissors, Lizard, Spock
-              </div>
-            <img src="/w3images/house2.jpg" alt="Image" style="width:100%">
-            </div>
-          </div>
+          <a href="https://github.com/BA-CalderonMorales/repo_DayTripGenerator.git">
+            <img class="mySlides" src="./images/daytrip.jpg" style="width: 100%">
+          </a>
           
-          <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-              <div class="w3-display-topleft w3-black w3-padding">
-                Robots vs Dinosaurs
-              </div>
-              <img src="/w3images/house3.jpg" alt="Image" style="width:100%">
-            </div>
-          </div>
+          <a href="https://github.com/CyrusWarner/Most-Wanted.git">
+            <img class="mySlides" src="img_forest.jpg">
+          </a>
+          <!-- Will store a template to add my future projects. Will only need to 
+          insert the appropriate information below, and then direct visitors to the
+          appropriate repository on my GitHub. 
+          <a href="">
+            <img src="mySlides" src="img_forest.jpg">
+          </a> 
+          -->
           
-          <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-              <div class="w3-display-topleft w3-black w3-padding">
-                Day Trip Generator
-              </div>
-              <img src="/w3images/house4.jpg" alt="Image" style="width:100%">
-            </div>
-          </div>
-
+          <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>  
+          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
         </div>
         <!-- Content end -->
 
@@ -240,6 +228,25 @@
             x.className = x.className.replace(" w3-show", "");
           }
         }
+
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length} ;
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }
+
         </script>
     </section>
   </body>

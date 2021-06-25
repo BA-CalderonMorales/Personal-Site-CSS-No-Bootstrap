@@ -125,6 +125,12 @@ a:hover {
   height: 10%;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10rem;
+}
+
+/* Project Images */
+.mySlids {
+  display: none;
 }
 
 /* Images */
@@ -153,17 +159,14 @@ a:hover {
   width: auto;
 }
 .team {
-  padding-left: 10%;
   height: 125px;
   width: auto;
 }
 .laptop {
-  padding-left: 10%;
   height: 125px;
   width: auto;
 }
 .critical-thinker {
-  padding-left: 10%;
   height: 125px;
   width: auto;
 }
